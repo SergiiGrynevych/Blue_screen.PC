@@ -1,0 +1,226 @@
+body{
+    /* color: var(--primary-text-color);
+    background-color: var(--third-text-color); */
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+}
+
+img{​  
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer{
+    background-image: linear-gradient(black, black);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+
+.navigation{
+    height: 50px;
+}
+
+.header-navigation{
+    display: flex;
+    align-items: center;
+}
+
+.main-logo{
+    display: flex;
+    margin-left: 30px;
+    color: inherit;
+    font-size: 20px;
+}
+
+.main-logo-last{
+    color: red;
+}
+
+.main-logo-last:hover,
+.main-logo-last:focus{
+    color: white;
+}
+
+.main-logo:hover,
+.main-logo:focus{
+    color: red;
+}
+
+.social-links{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+}
+
+.header-link{
+    display: block;
+    color: inherit;
+}
+
+.instagram{
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    align-items: center;
+    fill: white;
+}
+
+.header-link:hover,
+.header-link:focus{
+    color: red;
+}
+
+.header-link:hover > .instagram,
+.header-link:focus > .instagram{
+    fill: red;
+}
+
+.youtube{
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    align-items: center;
+    fill: white;
+}
+
+.header-link:hover > .youtube,
+.header-link:focus > .youtube{
+    fill: red;
+}
+
+.header{
+    margin-right: 30px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+}
+
+.hero{
+    background-image: url(/images/photo5291745548484848565.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1290px;
+    height: 349px;
+}
+
+.content{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.hero-main{
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 80px;
+}
+
+.hero-main:hover,
+.hero-main:focus{
+    color: red;
+    cursor: pointer;
+}
+
+.video{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid white;
+}
+
+.video > li{
+    margin-left: 15px;
+}
+
+.video > li:nth-child(-n + 4){
+    margin-bottom: 25px;
+}
+
+
+.trailer{
+    margin-left: auto;
+}
+
+.definition{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.definition > h2{
+    margin-bottom: 30px;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+}
+
+.description > div{
+    margin-right: 50px;
+}
+
+.description > div:last-child{
+    margin-right: 0px;
+}
+
+.video-content > h2{
+    margin-top: 15%;
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: right;    
+}
+
+.video-content > p{
+    font-size: 30px;
+}
+
+.video-content > h2:hover,
+.video-content > h2:focus{
+    color: green;
+    cursor: pointer;
+}
+
+.video-content > p:hover,
+.video-content > p:focus{
+    color: red;
+    cursor: pointer;
+}
+
+
+.last-word{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid white;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
