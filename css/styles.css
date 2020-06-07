@@ -148,11 +148,6 @@ li {
     padding-top: 13px;
 }
 
-.hero{
-    width: 1290px;
-    height: 349px;
-}
-
 .content{
     padding-top: 40px;
     padding-bottom: 40px;
@@ -174,7 +169,6 @@ li {
 .hero-main:focus{
     color: red;
     cursor: pointer;
-    transition: all ;
 }
 
 .video-definition{
@@ -193,8 +187,8 @@ li {
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
-    /* border-top: 1px solid white;
-    border-bottom: 1px solid white; */
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
 }
 
 .trailer{
@@ -261,11 +255,10 @@ li {
     margin-bottom: 25px;
 }
 
-
 .last-word{
     padding-top: 20px;
     padding-bottom: 20px;
-    /* border-top: 1px solid white; */
+    border-top: 1px solid white;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 6px;
