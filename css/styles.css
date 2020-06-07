@@ -38,9 +38,6 @@ li {
     list-style-type: none; /* Убираем маркеры */
 }
 
-.navigation{
-    height: 50px;
-}
 
 .header-navigation{
     display: flex;
@@ -75,9 +72,43 @@ li {
     margin-left: auto;
 }
 
+.title{
+    color: inherit;
+    text-transform: uppercase;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+}
+
+.pages{
+    margin-left: 120px;
+}
+
+.pages-links + .pages-links{
+    margin-left: 30px;
+}
+
+.pages .current{
+    position: relative;
+}
+
+.current::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+.current{
+    color: red;
+}
+
 .header-link{
     display: block;
     color: inherit;
+    text-transform: uppercase;
 }
 
 .instagram{
@@ -130,15 +161,25 @@ li {
 .hero-main{
     padding: 0;
     margin: 0;
+    max-width: 945px;
+    margin-left: auto;
+    margin-right: auto;
     text-transform: uppercase;
-    text-align: center;
     font-size: 80px;
+    transition: 1000ms;
+    /* animation-iteration-count: infinite; */
+}
+
+.trailer{
+    transition-duration: 2500ms;
+    transition-delay: 250ms;
 }
 
 .hero-main:hover,
 .hero-main:focus{
     color: red;
     cursor: pointer;
+    transition: all ;
 }
 
 .video{
